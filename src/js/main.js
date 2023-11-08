@@ -22,25 +22,25 @@ gsap.registerPlugin(
   TextPlugin
 );
 
-// gsap.to(".element-1", {
-//   y: "49%",
-// });
-
-// gsap.to(".element-1", {
-//   scrollTrigger: {
-//     trigger: ".element-1",
-//     start: "top down",
-//     end: "+=300%",
-//     pin: true,
-//     scrub: true,
-//     markers: true,
-//   },
-//   y: "-75%",
-//   ease: "sine.inOut",
-// });
-
-gsap.to(".element-1", {
-  scrollTrigger: ".box-wrapper",
-  y: "150px",
+gsap.to("#logo-tintin", {
+  scrollTrigger: {
+    trigger: "#logo-tintin",
+    start: "top top",
+    end: "bottom",
+    scrub: true,
+    markers: true,
+  },
+  y: "50px",
+  opacity: 0,
+  duration: 1,
   ease: "sine.inOut",
+});
+
+gsap.to("#arrow-down", {
+  y: "50px",
+  // opacity: 0,
+  duration: 1,
+  repeat: -1,
+  yoyo: true,
+  ease: "expoScale(0.5,7,none)",
 });

@@ -8,17 +8,17 @@ header {
 .element-1 {
   display: flex;
   justify-content: center;
-  margin: 90px;
-  padding: 90px;
-  background-color: red;
 }
 
-.element {
+.element-2 {
   display: flex;
   justify-content: center;
-  margin: 90px;
-  padding: 90px;
-  background-color: red;
+  transform: rotate(3.142rad);
+  margin-top: 20px;
+}
+
+.element-2 img {
+  height: 90px;
 }
 
 .header-title {
