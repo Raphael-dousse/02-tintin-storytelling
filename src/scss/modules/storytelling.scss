@@ -1,26 +1,96 @@
-.case-2 {
-  display: flex;
-  justify-content: center;
+.case-1 {
+  // display: flex;
+  // flex-direction: row;
+  aspect-ratio: 2/1;
+  position: relative;
 }
 
-.case-2 img {
+.case-1 img {
   height: 490px;
 }
 
-.case-2 > .object-2 img {
-  height: 200px;
+.case-1 > .object-1 {
   position: absolute;
+  left: 5%;
+}
+
+.case-1 > .object-2 {
+  position: absolute;
+  left: 45%;
+  transform: translate(-50%);
+}
+
+.case-1 > .object-2 img {
+  height: 500px;
+}
+
+.case-1 > .object-3 {
+  position: absolute;
+  left: 50%;
+}
+
+.case-1 > .object-3 img {
+  height: 150px;
+}
+
+.case-1 > .object-4 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+}
+
+.case-1 > .object-4 img {
+  height: 450px;
 }
 
 .case-3 {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .case-3 img {
-  height: 490px;
+  height: 390px;
 }
 
-.case-3 > .object-2 {
+.case-3 > .object-1 {
+  position: absolute;
+}
+
+.case-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.case-4 > .object-2 {
+  position: absolute;
+}
+
+.case-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.case-5 > .object-1 {
+  position: absolute;
+}
+
+.case-5 > .object-2 {
+  position: absolute;
+}
+
+.case-5 img {
+  height: 390px;
+}
+
+.case-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.case-6 > .object-1 {
   position: absolute;
 }

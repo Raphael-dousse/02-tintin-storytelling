@@ -57,8 +57,8 @@ gsap.to("#moine-volant", {
 gsap.to("#moine", {
   scrollTrigger: {
     trigger: "#moine",
-    start: "-700px",
-    end: "-100px",
+    start: "-200px",
+    end: "-50px",
     scrub: true,
     markers: true,
   },
