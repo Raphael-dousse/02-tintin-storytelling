@@ -43,3 +43,10 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 370px;
+  margin-top: 200px;
+}

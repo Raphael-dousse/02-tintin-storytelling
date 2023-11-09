@@ -44,3 +44,37 @@ gsap.to("#arrow-down", {
   yoyo: true,
   ease: "expoScale(0.5,7,none)",
 });
+
+gsap.to("#moine-volant", {
+  y: "50px",
+  // opacity: 0,
+  duration: 2,
+  repeat: -1,
+  yoyo: true,
+  ease: "power1.inOut",
+});
+
+gsap.to("#moine", {
+  scrollTrigger: {
+    trigger: "#moine",
+    start: "-700px",
+    end: "-100px",
+    scrub: true,
+    markers: true,
+  },
+  y: "190px",
+  ease: "sine.inOut",
+});
+
+gsap.from("#bulle", {
+  scrollTrigger: {
+    trigger: "#moine",
+    start: "-400px",
+    end: "-350px",
+    scrub: true,
+    markers: true,
+  },
+  x: "-90px",
+  opacity: 0,
+  ease: "sine.inOut",
+});
