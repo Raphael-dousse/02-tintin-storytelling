@@ -11,22 +11,20 @@
 
 .case-1 > .object-1 {
   position: absolute;
-  left: 5%;
+  left: 20%;
 }
 
 .case-1 > .object-2 {
   position: absolute;
-  left: 45%;
+  left: 55%;
+  bottom: 65%;
   transform: translate(-50%);
-}
-
-.case-1 > .object-2 img {
-  height: 500px;
 }
 
 .case-1 > .object-3 {
   position: absolute;
-  left: 50%;
+  left: 69%;
+  bottom: 90%;
 }
 
 .case-1 > .object-3 img {
@@ -36,7 +34,7 @@
 .case-1 > .object-4 {
   position: absolute;
   top: 5%;
-  left: 50%;
+  left: 70%;
 }
 
 .case-1 > .object-4 img {
@@ -44,9 +42,8 @@
 }
 
 .case-3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  aspect-ratio: 2/1;
+  position: relative;
 }
 
 .case-3 img {
@@ -55,30 +52,62 @@
 
 .case-3 > .object-1 {
   position: absolute;
+  left: 40%;
+  bottom: 120%;
+}
+
+.case-3 > .object-2 {
+  position: absolute;
+  left: 39%;
+  bottom: 90%;
 }
 
 .case-4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  aspect-ratio: 2/1;
+  position: relative;
+}
+
+.case-4 > .object-1 {
+  position: absolute;
+  bottom: 27%;
+  left: 35%;
 }
 
 .case-4 > .object-2 {
   position: absolute;
+  bottom: 35%;
+  left: 35%;
 }
 
 .case-5 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  aspect-ratio: 2/1;
+  position: relative;
 }
 
 .case-5 > .object-1 {
   position: absolute;
+  bottom: 70%;
+  left: 29%;
+}
+
+.case-5 > .object-1 img {
+  height: 890px;
 }
 
 .case-5 > .object-2 {
   position: absolute;
+  bottom: 110%;
+  left: 29%;
+}
+
+.case-5 > .object-2 img {
+  height: 550px;
+}
+
+.case-5 > .object-3 {
+  position: absolute;
+  bottom: 70%;
+  left: 30%;
 }
 
 .case-5 img {
@@ -86,11 +115,86 @@
 }
 
 .case-6 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  aspect-ratio: 2/1;
+  position: relative;
 }
 
 .case-6 > .object-1 {
   position: absolute;
+  bottom: 70%;
+  left: 20%;
+}
+
+.case-6 > .object-2 img {
+  height: 590px;
+}
+
+.case-7 {
+  aspect-ratio: 2/1;
+  position: relative;
+}
+
+.case-7 > .object-1 {
+  position: absolute;
+  left: 35%;
+}
+
+.case-7 > .object-1 img {
+  height: 620px;
+}
+
+.case-7 > .object-2 {
+  position: absolute;
+  left: 35%;
+  bottom: 35.5%;
+}
+
+.case-7 > .object-2 img {
+  height: 450px;
+}
+
+.case-8 {
+  aspect-ratio: 2/1;
+  position: relative;
+}
+
+.case-8 > .object-1 {
+  position: absolute;
+  left: 5%;
+}
+
+.case-8 > .object-2 {
+  position: absolute;
+  left: 65%;
+}
+
+.case-8 > .object-3 {
+  position: absolute;
+  left: 55%;
+}
+
+.case-9 {
+  aspect-ratio: 2/1;
+  position: relative;
+}
+
+.case-9 > .object-1 {
+  position: absolute;
+  left: 10%;
+}
+
+.case-9 > .object-1 img {
+  height: 590px;
+}
+
+.case-9 > .object-2 {
+  position: absolute;
+  left: 60%;
+  bottom: 39%;
+}
+
+.case-9 > .object-3 {
+  position: absolute;
+  left: 53%;
+  bottom: 75%;
 }

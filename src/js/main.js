@@ -54,17 +54,17 @@ gsap.to("#moine-volant", {
   ease: "power1.inOut",
 });
 
-gsap.to("#moine", {
-  scrollTrigger: {
-    trigger: "#moine",
-    start: "-200px",
-    end: "-50px",
-    scrub: true,
-    markers: true,
-  },
-  y: "190px",
-  ease: "sine.inOut",
-});
+// gsap.to("#moine", {
+//   scrollTrigger: {
+//     trigger: "#moine",
+//     start: "-200px",
+//     end: "-50px",
+//     scrub: true,
+//     markers: true,
+//   },
+//   y: "190px",
+//   ease: "sine.inOut",
+// });
 
 gsap.from("#bulle", {
   scrollTrigger: {
