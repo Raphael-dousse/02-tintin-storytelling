@@ -1,0 +1,43 @@
+footer {
+  margin-top: 200px;
+  padding: 55px;
+  background: black;
+  color: white;
+}
+
+footer h2 {
+  color: #fff;
+  font-family: Field Gothic;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 65px; /* 130% */
+  width: 582px;
+  height: 312px;
+  flex-shrink: 0;
+}
+
+.footer-buy {
+  display: flex;
+  flex-direction: row;
+  gap: 130px;
+}
+
+.footer-buy-text {
+  margin-top: 205px;
+}
+
+.footer-buy-text a {
+  background: #fff;
+  color: black;
+  padding: 20px 10px;
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease-out;
+}
+
+.footer-buy-text a:hover {
+  background: #000000;
+  color: #fff;
+  border: solid white 1px;
+}
