@@ -198,3 +198,67 @@
   left: 53%;
   bottom: 75%;
 }
+
+.case-10 img {
+  height: 590px;
+}
+
+.case-10 > .object-1 {
+  position: absolute;
+  left: 27%;
+  background: #12110f;
+  padding: 80px;
+}
+
+.case-12 {
+  aspect-ratio: 2/1;
+  position: relative;
+}
+
+.case-12 img {
+  height: 600px;
+}
+
+.case-12 > .object-2 {
+  position: absolute;
+  left: 2%;
+}
+
+.case-12 > .object-3 {
+  position: absolute;
+  left: 2%;
+}
+
+.case-12 > .object-4 {
+  position: absolute;
+  left: 55%;
+}
+
+.case-12 > .object-5 {
+  position: absolute;
+  left: 53%;
+}
+
+.case-12 > .object-6 {
+  position: absolute;
+  left: 55%;
+}
+
+.case-12 > .object-6 img {
+  height: 140px;
+}
+
+.case-13 img {
+  height: 570px;
+}
+
+.case-13 {
+  aspect-ratio: 2/1;
+  position: relative;
+}
+
+.case-13 > .object-1 {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+}
