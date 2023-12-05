@@ -1,26 +1,27 @@
 import { gsap } from "gsap";
 
-import { Flip } from "gsap/Flip";
+// import { Flip } from "gsap/Flip";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { Observer } from "gsap/Observer";
-import { ScrollToPlugin } from "gsap/ScrollToPlugin";
-import { Draggable } from "gsap/Draggable";
-import { MotionPathPlugin } from "gsap/MotionPathPlugin";
-import { EaselPlugin } from "gsap/EaselPlugin";
-import { PixiPlugin } from "gsap/PixiPlugin";
-import { TextPlugin } from "gsap/TextPlugin";
+// import { Observer } from "gsap/Observer";
+// import { ScrollToPlugin } from "gsap/ScrollToPlugin";
+// import { Draggable } from "gsap/Draggable";
+// import { MotionPathPlugin } from "gsap/MotionPathPlugin";
+// import { EaselPlugin } from "gsap/EaselPlugin";
+// import { PixiPlugin } from "gsap/PixiPlugin";
+// import { TextPlugin } from "gsap/TextPlugin";
 
-gsap.registerPlugin(
-  Flip,
-  ScrollTrigger,
-  Observer,
-  ScrollToPlugin,
-  Draggable,
-  MotionPathPlugin,
-  EaselPlugin,
-  PixiPlugin,
-  TextPlugin
-);
+// gsap.registerPlugin(
+//   Flip,
+//   ScrollTrigger,
+//   Observer,
+//   ScrollToPlugin,
+//   Draggable,
+//   MotionPathPlugin,
+//   EaselPlugin,
+//   PixiPlugin,
+//   TextPlugin
+// );
+gsap.registerPlugin(ScrollTrigger);
 
 gsap.to("#logo-tintin", {
   scrollTrigger: {
@@ -28,7 +29,7 @@ gsap.to("#logo-tintin", {
     start: "top top",
     end: "bottom",
     scrub: true,
-    markers: true,
+    // markers: true,
   },
   y: "50px",
   opacity: 0,
@@ -72,7 +73,7 @@ gsap.from("#bulle", {
     start: "-400px",
     end: "-350px",
     scrub: true,
-    markers: true,
+    // markers: true,
   },
   x: "-90px",
   opacity: 0,

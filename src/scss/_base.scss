@@ -26,7 +26,6 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
-  scroll-behavior: smooth;
 }
 
 a {
@@ -55,4 +54,19 @@ main {
   flex-direction: column;
   gap: 370px;
   margin-top: 200px;
+  scroll-behavior: smooth;
+}
+
+h2 {
+  font-family: Field Gothic;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+p {
+  font-family: Field Gothic;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 200;
 }
